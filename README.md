@@ -31,3 +31,15 @@ To run OpenNVR, you will need:
 - **Easy Setup:** Perfect for users without advanced technical knowledge.
 - **Reliability:** Automatic backups ensure data security.
 - **Scalability:** Can be adapted to different scenarios and usage scales.
+
+## Setup credentials
+
+To configure the credentials for the application, create a Bash script named `credentials.bash` and set the following environment variables:
+
+```bash
+export IPCAM_ADDR=''  # IP address or hostname of the IP camera
+export IPCAM_USER=''  # Username for accessing the IP camera
+export IPCAM_PASS=''  # Password for accessing the IP camera
+
+export SERVER_ADDR='' # IP address or hostname of the server
+export SERVER_USER='' # Username for accessing the server

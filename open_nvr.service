@@ -1,0 +1,10 @@
+[Unit]
+Description=OpenNVR - Gravador de fluxo de vídeo
+After=network.target
+
+[Service]
+ExecStart=/opt/open_nvr/open_nvr.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
